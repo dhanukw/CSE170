@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>instaCal </title>
+                <title>instaCal - Add Filter</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href = "css/bootstrap.min.css" rel = "stylesheet">
                 <link href = "css/styles.css" rel = "stylesheet">
@@ -39,11 +39,28 @@
                                
                 </div>
             </div>
+
             <div class = "container">
+                <label for="examplefilter">Filter Name</label>
+                <input type="FilterName" class="form-control" placeholder="Filter Name" required autofocus>
+                <label for="examplePrivacy">Privacy</label>
+                <select input type="text" class="form-control" placeholder="Month">
+                    <option>Public</option>
+                    <option>Friends</option>
+                    <option>Following</option>
+                    <option>Select Friends</option>
+                </select>
+                <label for="SelectFriends">Select Friends</label>
+                //js add friends
+                <div class="row">
+                    <div class="col-xs-6">
+                        <p><a class="btn btn-lg btn-success" href="profile.html" role="button">Create Filter</a></p>
+                    </div>
+                <div class="col-xs- 5">
+                        <p><a class="btn btn-lg btn-danger" href="profile.html" role="button">Cancel</a></p>
+                </div>
 
-// write shit here
-
-
+                 
             </div>
                
                 
