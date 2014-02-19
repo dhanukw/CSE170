@@ -39,14 +39,31 @@
                                
                 </div>
             </div>
+
             <div class = "container">
-            <h5>Calandar Feed</h5>
-            <p><a href= "snoop.html">Grant Wiesnoski</a> added event to his calender <a href= "snooptour.html">Road Trip 2015. </a></p>
-            <p><a href= "snoop.html">Snoop Dogg </a> updated his calender <a href= "snooptour.html">Tour 2014. </a></p>
-            <p><a href= "snoop.html">Imagine Dragons </a> are performing at <a href= "snooptour.html">Valley View Casino </a> soon.</p>
-            <p><a href= "snoop.html">Grant Wiesnoski</a> and <a href= "snoop.html">Brian Clark</a> collaborated on an event in <a href= "snooptour.html">COGS 120/CSE 170. </a></p>
+                <img src="images/dhanuk.jpg" class="img-thumbnail"  >
+                
+                <h3 class="text-center">Dhanuk Withana</h3>
 
+                 <div class = "container">
+                    UCSD 2015 
+                 </div>
 
+                <div class = "container">
+                    <h5>Dhanuk's Filers</h5>
+
+                </div>
+                <button type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-default"> Follow</button>
+                <script>
+                    $('#loading-example-btn').click(function () {
+                    var btn = $(this)
+                    btn.button('loading')
+                    $.ajax(...).always(function () {
+                    btn.button('reset')});
+                    });
+                </script>
+
+                <p><a class="btn btn-warning btn-lg btn-sm" href="addfilter.html" role="button">Add Filter</a></p>
 
             </div>
                
